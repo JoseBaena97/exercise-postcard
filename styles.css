@@ -1,0 +1,67 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 400px;
+	margin: none;
+	font-family: "Rubik Gemstones", system-ui;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: none;
+}
+
+.body-left,
+.body-right {
+	padding: 1%;
+	font-family: "Mountains of Christmas", serif;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+p {
+	font-size: 12px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: #333;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	font-size: 8px;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+button:hover {
+	background-color: #222;
+}
